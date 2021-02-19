@@ -7,14 +7,14 @@
 }
               /*common classes and elements*/
 body {
-font-family: monospace;
-max-width:1366px;
-height:100vh;
-background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/background.jpg");
-background-attachment: scroll;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+  font-family: monospace;
+  max-width:1366px;
+  height:100vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(background.jpg);
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -229,17 +229,6 @@ text-align:center;
   clear: both;
 }
                          /* Styling Cv PAGE*/
-.cv_background {
-  font-family: monospace;
-  max-width:1366px;
-  height:100vh;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("../img/background.jpg");
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
 .cv_formatting {
   width:900px;
   height:70vh;
