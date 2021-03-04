@@ -7,14 +7,14 @@
 }
               /*common classes and elements*/
 body {
-font-family: monospace;
-max-width:1366px;
-height:100vh;
-background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/background.jpg");
-background-attachment: scroll;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+  font-family: monospace;
+  max-width:1366px;
+  height:100vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(background.jpg);
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -33,7 +33,7 @@ float:left;
 margin-top:20px;
 padding-left:10px;
 font-family:"Dancing Script", arial;
-font-size:27px;
+font-size:1.7em;
 color:green;
 }
 
@@ -86,7 +86,7 @@ color:white;
 text-decoration:none;
 padding-right: 30px;
 font-family:arial;
-font-size:20px;
+font-size:1.2em;
 margin-right:10px;
 }
 
@@ -143,7 +143,7 @@ p {
 display:none;
 position:absolute;
 font-family:arial;
-font-size:20px;
+font-size:1.2em;
 border: 1px solid  #DAA520;
 width:35%;
 overflow: auto;
@@ -160,7 +160,7 @@ text-align:center;
   address {
   position:absolute;
   font-family:arial;
-  font-size:20px;
+  font-size:1.2em;
   width:70%;
   overflow: auto;
   margin-top: 60px;
@@ -229,17 +229,6 @@ text-align:center;
   clear: both;
 }
                          /* Styling Cv PAGE*/
-.cv_background {
-  font-family: monospace;
-  max-width:1366px;
-  height:100vh;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("../img/background.jpg");
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
 .cv_formatting {
   width:900px;
   height:70vh;
@@ -276,7 +265,7 @@ outline:none;
 cursor: pointer;
 text-align: center;
 text-decoration: none;
-font: bold 12px Arial, Helvetica, sans-serif;
+font: bold 0.7em Arial, Helvetica, sans-serif;
 color: green;
 padding: 10px 20px;
 border: solid 1px #0076a3;
@@ -291,7 +280,7 @@ opacity:0.70;
 h2 {
 font-family: sans;
 text-align:center;
-font-size:35px;
+font-size:1.7em;
 color:green;
 }
 .portfolio{
